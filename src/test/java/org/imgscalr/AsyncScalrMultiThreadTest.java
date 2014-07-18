@@ -15,12 +15,12 @@
  */
 package org.imgscalr;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.junit.Assert;
-import org.junit.Test;
 
 /**
  * The purpose of this test is to execute simultaneous scale operations on a
@@ -29,7 +29,7 @@ import org.junit.Test;
  * @author Riyad Kalla (software@thebuzzmedia.com)
  */
 public class AsyncScalrMultiThreadTest extends AbstractScalrTest {
-	private static int ITERS = 100000;
+	private static int ITERS = 200;
 	private static BufferedImage ORIG;
 
 	static {
